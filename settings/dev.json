@@ -1,0 +1,16 @@
+{
+	"api": {
+		"db_config": {
+			"name": "be-api",
+			"host": "",
+			"port": 5432,
+			"database": "be-api"
+		},
+		"log": {
+			"level": "debug",
+			"time": 0
+		}
+	},
+	"version": "/be-api/v1/",
+	"port": 8888
+}
