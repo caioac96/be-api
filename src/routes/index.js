@@ -31,8 +31,6 @@ router.get('/', controllerIndex.get);
  */
 router.get('/clients', controllerClients.get);
 router.get('/client/:id', controllerClients.getID);
-router.get('/clients/hierarchy/:id', controllerClients.getHierarchy);
-router.get('/clients/ids/:id', controllerClients.getIDSHierarchy);
 
 /**
  * @desc Server Exports
